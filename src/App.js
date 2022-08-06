@@ -6,13 +6,15 @@ import RegisterPage from './authPages/RegisterPage/RegisterPage';
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
+   <>
+     <Routes>
         <Route path='/' element={<Dashboard></Dashboard>}></Route>
         <Route path='/login' element={<LoginPage></LoginPage>}></Route>
         <Route path='/register' element={<RegisterPage></RegisterPage>}></Route>
       </Routes>
-    </div>
+   </>
+    
+   
   );
 }
 
